@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warener Tagblatt - Nachrichten aus der Region</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .prose p {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto max-w-6xl bg-white shadow-lg p-4 sm:p-8 my-8">
+
+        <!-- HEADER -->
+        <header class="border-b-4 border-gray-800 pb-4 mb-8">
+            <div class="flex flex-wrap justify-between items-center">
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-bold text-gray-900">Warener Tagblatt</h1>
+                    <p class="text-gray-600">Die einzige Wahrheit für die Müritz-Region</p>
+                </div>
+                <div class="text-right mt-4 md:mt-0">
+                    <p class="font-semibold text-lg text-red-600">Sonderausgabe</p>
+                    <!-- Falsches Datum (Schritt 4) -->
+                    <p class="text-gray-700">30. Februar 2025</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- MAIN CONTENT (2/3) -->
+            <main class="md:col-span-2">
+
+                <!-- Artikel 1: Tourismus (Reißerisch, falscher Autor) -->
+                <article class="mb-12 border-b pb-8">
+                    <!-- Reißerische Überschrift (Schritt 1) -->
+                    <h2 class="text-3xl font-bold text-red-700 mb-2">SCHOCK FÜR URLAUBER: Komplette Müritz wegen seltener Feuerquallen gesperrt!!!</h2>
+                    <p class="text-gray-500 mb-4">Von: Ein besorgter Anwohner</p>
+                    
+                    <img src="qualle.jpg" alt="Symbolbild einer Qualle" class="w-full h-auto rounded-lg shadow-md mb-4">
+                    
+                    <!-- Emotionaler, widersprüchlicher Text (Schritt 1 & 3) -->
+                    <div class="prose max-w-none">
+                        <p>WAREN (Müritz) – Ein Albtraum für alle Touristen und Einheimischen! Wie aus internen Kreisen durchsickerte, plant die Regierung eine sofortige und totale Sperrung der gesamten Müritz für den Badebetrieb. Der Grund: Eine bisher unbekannte, hochgiftige Feuerquallenart soll sich explosionsartig vermehrt haben. Experten sind sich uneinig, aber die Gefahr ist REAL!</p>
+                        <p>"Ich habe noch nie so etwas gesehen", berichtet ein Angler, der anonym bleiben möchte. "Die Quallen leuchten nachts unheimlich rot und sind so groß wie Autoreifen." Gleichzeitig behaupten offizielle Stellen, es gäbe keine Gefahr. Wem soll man hier noch glauben?! Es ist eine Schande, dass die Wahrheit wieder einmal vertuscht wird, nur um die Tourismus-Industrie nicht zu gefährden. Wacht endlich auf!</p>
+                        <p>Jeder, der jetzt noch in die Müritz geht, riskiert nicht nur schreckliche Verbrennungen, sondern auch langfristige gesundheitliche Schäden. Teilen Sie diesen Artikel, um Ihre Freunde und Familie zu warnen, bevor es zu spät ist!</p>
+                    </div>
+                </article>
+
+                <!-- Fake-Kommentarspalte -->
+                <section class="mb-12 border-b pb-8">
+                    <h3 class="text-2xl font-bold mb-4">Kommentare (3)</h3>
+                    <div class="space-y-6">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-semibold">Uwe_64</p>
+                            <p>ENDLICH SAGTS MAL EINER!!! Die da oben belügen uns doch nur. Ich hab die Quallen auch gesehen, die sind riesig! DANKE für diesen mutigen Artikel!!</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-semibold">Müritz_Fan</p>
+                            <p>Was für ein Quatsch. Ich war gestern schwimmen und da war gar nichts. Das ist doch nur Panikmache.</p>
+                        </div>
+                         <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-semibold">Patriot_MV</p>
+                            <p>Typisch Lügenpresse... ach ne, warte... hier wird ja die WAHRHEIT gesagt. Lasst euch nicht für dumm verkaufen!!!</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Artikel 3: Lokale Falschmeldung -->
+                <article class="mb-12 border-b pb-8">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Skandal-Entscheidung: Müritzeum soll Luxus-Hotel weichen!</h3>
+                     <p class="text-gray-500 mb-4">Von: Insider</p>
+                    <img src="baustelle.jpg" alt="Symbolbild einer Baustelle" class="w-full h-auto rounded-lg shadow-md mb-4">
+                    <div class="prose max-w-none">
+                       <p>WAREN – Es ist ein Schlag ins Gesicht für jeden Bürger dieser Stadt! In einer geheimen Nacht-und-Nebel-Aktion hat der Stadtrat angeblich beschlossen, das beliebte Müritzeum abzureißen. An seiner Stelle soll ein protziges Luxus-Hotel für reiche Touristen aus dem Ausland entstehen. Das geht aus einem geheimen Protokoll hervor, das unserer Redaktion zugespielt wurde. Einheimische Kultur wird für den Profit verkauft! Wehrt euch!</p>
+                    </div>
+                </article>
+
+
+                <!-- Artikel 2: Papst (Gefälschtes Bild) -->
+                <article>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Mode-Sensation im Vatikan: Papst setzt neuen Trend</h3>
+                    <p class="text-gray-500 mb-4">Von: A. Schuster</p>
+
+                    <!-- Bekanntes KI-Bild zum Überprüfen (Schritt 6) -->
+                    <img src="papst.jpg" class="w-full h-auto rounded-lg shadow-md mb-4" onerror="this.onerror=null;this.src='https://placehold.co/800x500/e0e0e0/555555?text=Bild+nicht+verfügbar';">
+                    
+                    <div class="prose max-w-none">
+                        <p>ROM – Papst Franziskus, bekannt für seine Bescheidenheit, überraschte die Welt kürzlich mit einem unerwartet modischen Auftritt. In einer riesigen, weißen Daunenjacke, die an Designs bekannter Luxusmarken erinnert, wurde er bei einem Spaziergang gesichtet. Das Foto ging sofort viral und löste eine Welle der Begeisterung aus.</p>
+                        <p>Mode-Experten weltweit loben den mutigen Stil des Pontifex. "Das ist ein Statement. Es zeigt, dass die Kirche modern und am Puls der Zeit ist", so ein bekannter Designer in einem Interview. Die Jacke war Berichten zufolge innerhalb von Minuten ausverkauft.</p>
+                    </div>
+                </article>
+
+            </main>
+
+            <!-- SIDEBAR (1/3) -->
+            <aside>
+                <div class="bg-gray-50 p-4 rounded-lg sticky top-8">
+                    <h3 class="text-xl font-bold border-b pb-2 mb-4">Werbung</h3>
+                    
+                    <!-- WERBEBANNER HIER ANPASSEN: Ersetzen Sie die URL im src-Attribut durch den Link zu Ihrem Bild. -->
+                    <div class="space-y-4">
+                        <!-- Banner 1 -->
+                        <img src="werbung-1.jpg" alt="Reich werden in 24h!" class="w-full h-auto rounded shadow">
+                        
+                        <!-- Banner 2 -->
+                        <img src="werbung-2.jpg" alt="Lehrer hassen diesen Trick" class="w-full h-auto rounded shadow">
+                        
+                        <!-- Banner 3 -->
+                        <img src="werbung-3.jpg" alt="Bombay Pizzeria Lieferservice" class="w-full h-auto rounded shadow">
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="mt-12 pt-8 border-t-2 border-gray-200 text-center text-gray-500">
+            <!-- Fehlendes Impressum (Schritt 2) -->
+            <p>&copy; 2025 Warener Tagblatt. Alle Rechte vorbehalten.</p>
+            <p>Kontaktieren Sie die Redaktion für Fragen.</p>
+            <p>Ein Projekt im Rahmen der Initiative "Wahrheit für Waren".</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
